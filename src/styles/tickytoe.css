@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Aboreto&display=swap");
+
+/* ELEMENTS */
+body {
+  font-family: "Montserrat", sans-serif;
+  margin: auto;
+  width: 50%;
+  background-color: #ac9a79;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #f5c5aa;
+}
+
+header h1 {
+  text-align: center;
+  font-weight: 400;
+  font-size: 3.5rem;
+  line-height: 5rem;
+}
+
+p {
+  text-align: center;
+  font-size: 2rem;
+  color: #b4fade;
+}
+
+button {
+  background-color: #f5c5aa;
+  border-radius: 25%;
+}
+
+/* CLASSES */
+/* GRID knowledge dropped on me from W3 schools! OUC  H!!!*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 200px);
+  grid-template-rows: repeat(3, 200px);
+  gap: 5px;
+  background-color: #88b2ff;
+  padding: 5px;
+}
+
+.grid-container > div {
+  text-align: center;
+  padding: 75px 0;
+  background-color: #2cada2;
+  font-size: 2.5rem;
+  font-family: "Aboreto", cursive;
+  font-weight: bold;
+  border: 0;
+  margin: 0;
+}
+
+.winner {
+  letter-spacing: 0.05rem;
+  padding-left: 0.3rem;
+}
+
+.btn {
+  display: grid;
+  margin: 2rem 10rem;
+  grid-template-columns: auto;
+  height: 3rem;
+}
+
+/* ID'S */
+
+/* MEDIA QUERIES */
